@@ -1,0 +1,14 @@
+[v-cloak] {
+    display: none;
+}
+
+.editor {
+    resize: none;
+    box-sizing: border-box;
+    height: 95vh !important;
+}
+
+.preview {
+    overflow: auto;
+    height: 95vh;
+}

@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Markdown Editor</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
 </head>
 <body>
-$END$
+
+<div class="container" id="editor">
+    <div class="row clearfix">
+        <div class="col-md-6 column">
+            <form role="form">
+                <div class="form-group">
+                    <label for="markdown_editor">Enter markdown code:</label>
+                    <textarea class="form-control editor" id="markdown_editor" v-model="markdown_text"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 column">
+            <form role="form">
+                <div class="form-group">
+                    <label for="markdown_preview">HTML Preview:</label>
+                    <div id="markdown_preview" class="preview" v-html="preview_text"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/markdown/lib/markdown.js"></script>
+
+<script src="../js/index.js"></script>
 </body>
 </html>
