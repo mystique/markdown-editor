@@ -1,0 +1,21 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "a simple markdown editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "kagamirin",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "markdown": "^0.5.0",
+    "underscore": "^1.8.3",
+    "vue": "^2.1.8"
+  }
+}
