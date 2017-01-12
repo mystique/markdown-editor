@@ -2,13 +2,22 @@
     display: none;
 }
 
+.main {
+    margin-top: 15px;
+}
+
 .editor {
     resize: none;
     box-sizing: border-box;
     height: 95vh !important;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 
 .preview {
     overflow: auto;
+    height: 95vh;
+}
+
+.CodeMirror {
     height: 95vh;
 }
